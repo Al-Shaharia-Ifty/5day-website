@@ -12,6 +12,11 @@ body {
 .header {
   padding: 50px;
   display: flex;
+  transition: 0.8s;
+  /* background-color: lightyellow; */
+}
+.header:hover {
+  background-color: lightyellow;
 }
 .margin-top {
   margin-top: 10px;
@@ -39,4 +44,51 @@ body {
 }
 .delevery {
   width: 100%;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.text-center {
+  width: 70%;
+}
+.text-center h2 {
+  text-align: center;
+}
+.text-center p {
+  text-align: center;
+  padding: 10px;
+}
+.donate-btn {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  flex-wrap: wrap;
+}
+.donate-btn button:hover {
+  color: #ff5959;
+  background-color: rgb(255, 255, 146);
+}
+.donate-btn button {
+  padding: 20px 5px;
+  font-size: 20px;
+  border: 0;
+  color: #707070;
+  border-radius: 5px;
+  margin: 5px;
+  transition: 1s ease;
+}
+#active-button {
+  color: #ff5959;
+  background-color: rgb(255, 255, 146);
+}
+#donate-input {
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  outline: none;
+  text-align: center;
+  padding: 10px;
 }
